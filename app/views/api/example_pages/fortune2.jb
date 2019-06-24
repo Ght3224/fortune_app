@@ -1,0 +1,5 @@
+array = Array.new(6, rand(@number))
+
+array = array.map.with_index{|array, i| rand(array + i)}
+
+p array 
